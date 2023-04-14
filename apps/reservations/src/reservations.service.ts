@@ -20,7 +20,7 @@ export class ReservationsService {
   }
 
   findOne(_id: string) {
-    return this.reservationRepository.findOne({ _id });
+    return this.reservationRepository.fineOne({ _id });
   }
 
   update(_id: string, updateReservationDto: UpdateReservationDto) {
